@@ -11,7 +11,7 @@ export const About = () => {
           </h1>
           <p>
             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
+            excepturis exercitationem quasi. In deleniti eaque aut repudiandae et
             a id nisi. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Earum, mollitia repellendus? Impedit autem animi nam possimus
             voluptas. Beatae quibusdam magnam incidunt deserunt pariatur
