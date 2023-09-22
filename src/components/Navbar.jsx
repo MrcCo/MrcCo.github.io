@@ -13,9 +13,9 @@ export const Navbar = () => {
   }
 
   return (
-    <div className="bg-base-100 w-full min-h-16 items-center grid grid-cols-[1fr_1fr] px-32 max-[450px]:px-10 pt-14 overflow-x-hidden">
+    <div className="bg-base-100 w-full min-h-16 items-center grid grid-cols-[1fr_1fr] px-32 pt-14 overflow-x-hidden">
       <h1
-        className={`normal-case text-2xl w-max font-bold text-[#eaeaea]`}
+        className={`normal-case text-4xl w-max font-bold text-[#eaeaea]`}
       >
         Marko Stefanović
       </h1>
@@ -26,7 +26,7 @@ export const Navbar = () => {
       >
         <LuMenu size={36} />
       </button>
-      <div className={`flex flex-col gap-2 top-28 right-[-100px] absolute ${NavStyles.menu}`} data-toggle={toggleMenu ? "true" : "false"}>
+      <div className={`flex flex-col gap-2 top-28 right-[-30px] absolute ${NavStyles.menu}`} data-toggle={toggleMenu ? "true" : "false"}>
         <NavLink
           to="/"
           className={({ isActive, isPending }) =>
