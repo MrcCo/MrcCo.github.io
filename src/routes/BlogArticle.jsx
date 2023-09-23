@@ -23,7 +23,7 @@ export const BlogArticle = () => {
   }, []);
 
   return (
-    <div className="hero min-h-screen py-20 min-[1450px]:px-44 lg:px-32 md:px-28">
+    <div className="hero min-h-screen py-44 min-[1450px]:px-44 lg:px-32 md:px-28">
       <div className="hero-content flex-col lg:flex-row p-0 max-w-full">
           <MarkDown
             options={{

@@ -5,7 +5,7 @@ export const CvModal = () => {
   return (
     <div>
       <button
-        className="btn bg-base-300 border-none bg-opacity-50 absolute bottom-2 right-2 rounded-full"
+        className="btn bg-base-300 border-none bg-opacity-50 absolute bottom-2 right-2 rounded-full max-[800px]:hidden"
         onClick={() => window.my_modal_1.showModal()}
         aria-label="Expand Image"
       >

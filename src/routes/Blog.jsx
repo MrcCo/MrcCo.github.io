@@ -21,7 +21,7 @@ export const Blog = () => {
   }, []);
 
   return (
-    <div className="py-20 flex flex-col min-[1450px]:px-44 lg:px-32 md:px-28">
+    <div className="py-44 flex flex-col min-[1450px]:px-44 lg:px-32 md:px-28">
       <main className="mb-20">
         <h1 className="text-5xl font-semibold mb-10 text-primary">
           Blog name placeholder

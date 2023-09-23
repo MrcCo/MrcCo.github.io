@@ -26,7 +26,7 @@ export const Cards = ({ posts }) => {
           <div className="card-body justify-between text-sm">
             <h1 className="card-title text-primary">{post.title}</h1>
             <p className="indent-0">{post.previewText}</p>
-            <div className="card-actions justify-end">
+            <div className="card-actions justify-center mt-5">
               <Link
                 to={`/blog/${post.title.replace(/\s+/g, "-").toLowerCase()}`}
                 state={{ post: post }}
