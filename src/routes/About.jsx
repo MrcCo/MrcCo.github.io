@@ -6,10 +6,10 @@ export const About = () => {
     <div className="hero justify-center place-items-start py-44 px-44 max-[1500px]:px-32 max-[800px]:px-32">
       <div className="hero-content flex-col min-[1400px]:flex-row items-start gap-20 p-0 max-w-full">
         <div className="flex flex-col gap-5 relative">
-          <h1 className="text-5xl w-[90%] font-bold text-primary mb-10 max-[600px]:text-4xl">
+          <h1 className="text-5xl max-w-max w-[90%] font-bold text-primary mb-10 max-[700px]:text-4xl">
             My name is Marko Stefanović and this is me!
           </h1>
-          <p className="max-[600px]:text-[.9rem]">
+          <p className="max-[700px]:text-[.9rem]">
             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
             excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
             a id nisi. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -18,7 +18,7 @@ export const About = () => {
             repellendus voluptatem, itaque quae, ex, laborum corporis? Placeat
             enim quam excepturi molestias nobis cumque eligendi expedita est!
           </p>
-          <p className="max-[600px]:text-[.9rem]">
+          <p className="max-[700px]:text-[.9rem]">
             Dolore rem laboriosam unde libero labore repudiandae consectetur
             cupiditate accusamus id ducimus, praesentium deserunt vel blanditiis
             facilis quas suscipit magnam? Impedit obcaecati illum cum quos,
@@ -33,7 +33,7 @@ export const About = () => {
             pariatur sequi expedita tenetur iusto quo ex laudantium placeat nisi
             sed voluptatibus incidunt.
           </p>
-          <p className="max-[600px]:text-[.9rem]">
+          <p className="max-[700px]:text-[.9rem]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ab
             perferendis accusantium voluptate animi similique facere quas
             facilis magni excepturi inventore esse iusto accusamus labore

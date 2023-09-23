@@ -10,7 +10,7 @@ export const Cards = ({ posts }) => {
           : posts.length === 2
           ? "min-[1450px]:grid-cols-2"
           : "min-[1450px]:grid-cols-3"
-      } lg:grid-cols-2 md:grid-cols-1 gap-6 max-w-[80%] place-self-center`}
+      } lg:grid-cols-2 md:grid-cols-1 gap-6 px-[5%] max-[800px]:px-[10%] place-self-center`}
     >
       {posts.map((post, idx) => (
         <div key={idx} className="card bg-base-100 shadow-xl">
