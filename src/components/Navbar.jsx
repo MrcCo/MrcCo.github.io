@@ -37,6 +37,9 @@ export const Navbar = () => {
 				>
 					<NavLink
 						to="/"
+						onClick = {() => {
+							setToggleMenu(false);
+						}}
 						className={({ isActive, isPending }) =>
 							`btn hover:bg-transparent hover:text-[#eaeaea] p-0 bg-transparent border-none normal-case text-xl max-[600px]:text-lg ${
 								NavStyles.navlink
@@ -48,6 +51,9 @@ export const Navbar = () => {
 					</NavLink>
 					<NavLink
 						to="/blog"
+						onClick = {() => {
+							setToggleMenu(false);
+						}}
 						className={({ isActive, isPending }) =>
 							`btn hover:bg-transparent hover:text-[#eaeaea] p-0 bg-transparent border-none normal-case text-xl max-[600px]:text-lg ${
 								NavStyles.navlink

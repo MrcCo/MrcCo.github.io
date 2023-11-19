@@ -17,7 +17,6 @@ export const Blog = () => {
 
   useEffect(() => {
     handleMetadata();
-    console.log(fileNameList);
   }, []);
 
   return (
